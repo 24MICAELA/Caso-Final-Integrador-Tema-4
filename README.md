@@ -30,7 +30,7 @@ La clase Variant representa distintos tipos de datos en un intérprete "tiny-lis
 
 ## Métodos clave
 
-Constructor: Inicializa el tipo de dato (type), y los punteros env y proc a nullptr.
+Constructor: Inicializa el tipo de dato (`type`), y los punteros `env` y `proc` a `nullptr`.
 
 - `to_string()`: Convierte el objeto en una cadena, adaptándose al tipo (símbolo, número, lista, etc.).
 
