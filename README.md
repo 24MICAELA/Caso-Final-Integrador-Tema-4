@@ -12,3 +12,7 @@ Definir e implementar una clase Variant. Esta clase deberá ser capaz de represe
   *Implementar un método to_json_string() para la clase Variant que convierta una instancia de la clase a una representación en formato JSON.
   *Implementar un método estático from_json_string() que tome una cadena en formato JSON y la convierta a una instancia de la clase Variant.
   *Implementar un método parse_json() que tome una cadena en formato JSON y la convierta a una instancia de la clase Variant.
+   A: Reserva de vuelo (20 min)
+- B: Informar a casa para empacar (5 min)
+- C: Empacar maletas (40 min)
+- D: Preparación del billete por la agencia (10 min)
