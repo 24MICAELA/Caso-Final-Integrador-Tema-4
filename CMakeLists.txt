@@ -8,4 +8,17 @@ add_executable(Caso_Final_Integrador_Tema_4
         tests/tests.cpp
         tests/tests.h
         tiny-lisp/tinylisp.cpp
+        tiny-lisp/tinylisp.h
 )
+
+# Incluir json11 como dependencia
+include(FetchContent)
+FetchContent_Declare(
+        json11
+        GIT_REPOSITORY https://github.com/dropbox/json11.git
+        GIT_TAG master
+)
+FetchContent_MakeAvailable(json11)
+
+# Vincula la biblioteca json11 al proyecto
+target_link_libraries(Caso_Final_Integrador_Tema_4 json11)

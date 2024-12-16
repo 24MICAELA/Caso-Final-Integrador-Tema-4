@@ -7,9 +7,7 @@
 
 
 
-class tests {
-
-};
+int ejecutar_test();
 
 
 
