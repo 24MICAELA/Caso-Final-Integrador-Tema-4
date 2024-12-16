@@ -21,12 +21,12 @@ Definir e implementar una clase Variant. Esta clase deberá ser capaz de represe
 
 La clase Variant representa distintos tipos de datos en un intérprete "tiny-lisp". Soporta:
 
-Símbolos: Identificadores (variables, funciones).
-Números: Valores numéricos.
-Listas: Colecciones de Variant.
-Funciones: Funciones ejecutables.
-Lambdas: Funciones anónimas.
-Cadenas: Texto entre comillas.
+- Símbolos: Identificadores (variables, funciones).
+- Números: Valores numéricos.
+- Listas: Colecciones de Variant.
+- Funciones: Funciones ejecutables.
+- Lambdas: Funciones anónimas.
+- Cadenas: Texto entre comillas.
 
 ## Métodos clave
 
